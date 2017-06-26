@@ -1,4 +1,4 @@
-from random import randint
+from helper_functions import genList
 
 #log n complexity
 def findPeak(aList):
@@ -21,9 +21,6 @@ def findPeak(aList):
     #else mid position is the peak
     else:
         return aList[midIndex]
-
-def genList():
-    return [randint(1,10) for i in range(10)]
 
 aList = genList()
 print findPeak(aList)

@@ -1,7 +1,4 @@
-from random import randint
-
-def genList():
-    return [randint(1,10) for i in range(10)]
+from helper_functions import genList
 
 def insSort(aList):
 
