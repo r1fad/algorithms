@@ -1,6 +1,7 @@
 from random import randint
-def findPeak(aList):
 
+#log n complexity
+def findPeak(aList):
     print aList
 
     length = len(aList)
